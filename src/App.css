@@ -1,6 +1,6 @@
 #root {
   max-width: 1280px;
-  margin: 0 auto;
+  margin: 0;
   padding: 2rem;
   text-align: center;
 }
@@ -39,4 +39,12 @@
 
 .read-the-docs {
   color: #888;
+}
+
+.appDiv {
+  display: flex;
+  gap: 25px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
 }
